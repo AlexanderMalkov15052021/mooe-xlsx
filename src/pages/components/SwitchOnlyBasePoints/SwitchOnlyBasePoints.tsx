@@ -2,7 +2,7 @@ import { ConverterStor } from "@/entities";
 import { Switch } from "antd/lib";
 import { observer } from "mobx-react-lite";
 
-export const SwitchOnlyBasePoints = observer(() => {
+const SwitchOnlyBasePoints = observer(() => {
     const {
         store: {
             basePointSwitchText, setOnlyBasePoints
@@ -17,3 +17,5 @@ export const SwitchOnlyBasePoints = observer(() => {
         <p>{basePointSwitchText}</p>
     </>
 });
+
+export default SwitchOnlyBasePoints;

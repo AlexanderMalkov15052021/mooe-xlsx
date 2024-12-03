@@ -7,7 +7,7 @@ import DownloadBtn from "./components/DownloadBtn/DownloadBtn";
 import UploadForm from "./components/UploadForm/UploadForm";
 import TypeErrorMessage from "./components/TypeErrorMessage/TypeErrorMessage";
 import LoadingBlock from "./components/LoadingBlock/LoadingBlock";
-import { SwitchOnlyBasePoints } from "./components/SwitchOnlyBasePoints/SwitchOnlyBasePoints";
+import SwitchOnlyBasePoints from "./components/SwitchOnlyBasePoints/SwitchOnlyBasePoints";
 
 export default function Home() {
 
